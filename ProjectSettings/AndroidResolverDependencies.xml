@@ -1,0 +1,35 @@
+<dependencies>
+  <packages>
+    <package>com.google.android.gms:play-services-base:17.6.0</package>
+    <package>com.google.firebase:firebase-analytics:20.0.0</package>
+    <package>com.google.firebase:firebase-app-unity:8.8.0</package>
+    <package>com.google.firebase:firebase-auth:21.0.1</package>
+    <package>com.google.firebase:firebase-auth-unity:8.8.0</package>
+    <package>com.google.firebase:firebase-common:20.0.0</package>
+    <package>com.google.firebase:firebase-firestore:24.0.0</package>
+    <package>com.google.firebase:firebase-firestore-unity:8.8.0</package>
+  </packages>
+  <files>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.8.0/firebase-app-unity-8.8.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.8.0/firebase-app-unity-8.8.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.8.0/firebase-auth-unity-8.8.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.8.0/firebase-auth-unity-8.8.0.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-firestore-unity/8.8.0/firebase-firestore-unity-8.8.0.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-firestore-unity/8.8.0/firebase-firestore-unity-8.8.0.pom</file>
+  </files>
+  <settings>
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="bundleId" value="com.google.clsyd.balloonpop" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="False" />
+  </settings>
+</dependencies>

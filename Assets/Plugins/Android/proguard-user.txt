@@ -1,0 +1,24 @@
+
+### Module Progurad Rules starts ###
+
+## Default ##
+-keep class com.unity3d.plugin.* { *; }
+
+## LocationModule ##
+-keep class com.google.android.gms.common.** { *; }
+                    -keep class com.google.android.gms.location.** { *; }
+                    -keep class com.google.android.gms.tasks.** { *; }
+
+### Module Progurad Rules ends ###
+
+### Module Progurad Rules starts ###
+
+## Default ##
+-keep class com.unity3d.plugin.* { *; }
+
+## LocationModule ##
+-keep class com.google.android.gms.common.** { *; }
+                    -keep class com.google.android.gms.location.** { *; }
+                    -keep class com.google.android.gms.tasks.** { *; }
+
+### Module Progurad Rules ends ###

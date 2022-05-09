@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">579096542099</string>
+  <string name="google_storage_bucket" translatable="false">cl-syd-ks-earth-anchors.appspot.com</string>
+  <string name="project_id" translatable="false">cl-syd-ks-earth-anchors</string>
+  <string name="google_api_key" translatable="false">AIzaSyDzfszqjezylm-QEktcOSv6EM4qJUGfHnE</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDzfszqjezylm-QEktcOSv6EM4qJUGfHnE</string>
+  <string name="google_app_id" translatable="false">1:579096542099:android:b629724bf8e009d5dbc666</string>
+  <string name="default_web_client_id" translatable="false">579096542099-c6ogp6e959m1nqkpn66oup27jcb9g3aq.apps.googleusercontent.com</string>
+</resources>

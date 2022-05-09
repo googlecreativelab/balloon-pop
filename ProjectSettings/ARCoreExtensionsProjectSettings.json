@@ -1,0 +1,10 @@
+{
+    "Version": "1.31.0",
+    "IsIOSSupportEnabled": false,
+    "AndroidAuthenticationStrategySetting": 2,
+    "AndroidCloudServicesApiKey": "",
+    "IOSAuthenticationStrategySetting": 0,
+    "IOSCloudServicesApiKey": "",
+    "CloudAnchorEnabled": false,
+    "GeospatialEnabled": true
+}
