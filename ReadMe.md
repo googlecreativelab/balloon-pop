@@ -135,13 +135,17 @@ The project uses the Firestore database in Firebase to save balloon coordinates,
 
 #### Install Firebase
 
-Import the following plugins - using `Assets > Import Package > Custom Package` menu item - from the [Firebase Unity SDK][https://firebase.google.com/docs/unity/setup]:
+Import the following plugins - using `Assets > Import Package > Custom Package` menu item - from the [Firebase Unity SDK](https://firebase.google.com/docs/unity/setup):
 
 ##### IMPORTANT
-When importing both packages, make sure the 'ExternalDependencyManager' folder is unchecked.
+After importing the Firebase packages you may run into a compatibility issues with the ExternalDependencyManager (EDM) that ships with both Firebase and and ARCore Extensions. We recommend using whichever version is newer. 
+
+If ARCore Extensions has a newer EDM you may uncheck the 'ExternalDependencyManager" when  importing these packages:
 
 * FirebaseAuth.unitypackage
 * FirebaseFirestore.unitypackage
+
+If Firebase is using a newer EDM we suggest installing the lite version of ARCore Extensions per the instructions [here](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions#without-edm4u). 
 
 #### Create a Firebase API Key
 
